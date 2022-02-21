@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    background: #4E7E97;
+    font-family: 'Poppins';
+}
+
+header{
+    display: flex;
+
+
+    .name{
+        color: #BCE3AD;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        margin: 1.3em 2em;
+
+        a{
+        text-decoration: none;
+        color: #BCE3AD;
+        }
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 3em 2em;
+        font-size: 1rem;
+        padding: 0 2em;
+        box-sizing: border-box;
+       
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+    
+    }
+
+    .watch-vd{
+        margin-left: 15em;
+        margin-top: .6em;
+        a{
+            text-decoration: none;
+          
+        }
+        
+    }
+}    
+
+.opis{
+    margin: 5em 5em;
+    letter-spacing: .1rem;
+    color: #BCE3AD;
+
+    h1{
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    h2{
+        font-size:1.2rem;
+        font-weight: 400;
+    }
+}
+
+.gumbi{
+    margin-left: 5em;
+    display: flex;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+
+    .primary-btn{
+        margin-right: 4em;
+        width: 14em;
+        height: 3em;
+        font-size: .95rem;
+        background: #FF681A;
+        border-radius: 20px;
+    }
+
+    .secondary-btn{
+        
+        font-size: 1rem;
+        font-weight: normal;
+        color: white;
+
+        a{
+            color: white;
+        }
+        
+    }
+}
+
+section{
+    color: #BCE3AD;
+    margin-left: 5em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    line-height: .7em;
+
+    .znacajke1{
+        margin-bottom: 2.2em;
+        position: relative;
+        h1{
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        h2{
+            font-size: 1rem;
+        }
+    }
+
+    .znacajke2{
+
+        h1{
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        h2{
+            font-size: 1rem;
+        }
+    }
+}
+img{
+    margin-left: 37em;
+    margin-top: -10em;
+    width: 500px;
+    height: 450px;
+    border-radius: 100em;
+    position: absolute;
+}
+
+footer{
+    padding: .1em;
+    text-align:center;
+    background:#E9E4D4;
+}
